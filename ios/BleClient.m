@@ -57,8 +57,6 @@ RCT_EXPORT_METHOD(createClient:(NSString*)restoreIdentifierKey) {
                                     restoreIdentifierKey:restoreIdentifierKey];
     _manager.delegate = self;
     
-    let managerDict:[String: CBCentralManager] = ["manager": _manager.manager];
-    NotificationCenter.default.post(name: NSNotification.Name(rawValue: "ble_manager"), object: nil, userInfo: managerDict);
 }
 
 RCT_EXPORT_METHOD(destroyClient) {
