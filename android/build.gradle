@@ -5,14 +5,15 @@ def safeExtGet(prop, fallback) {
 buildscript {
     repositories {
         jcenter()
+        google() // This for build tool
         maven {
             url 'https://maven.google.com/'
             name 'Google'
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.0'
-        classpath 'gradle.plugin.org.codehaus.groovy:groovy-android-gradle-plugin:3.0.0'
+        classpath 'com.android.tools.build:gradle:3.6.0' // Update build tool gradle
+        classpath 'gradle.plugin.org.codehaus.groovy:groovy-android-gradle-plugin:3.0.0' // Update groovy for gradle 6+
     }
 }
 
