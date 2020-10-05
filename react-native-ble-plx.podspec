@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = "Apache License 2.0"
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/BohdanIvanov/MultiplatformBleAdapter.git" }
+  s.source       = { :git => "https://github.com/Polidea/react-native-ble-plx.git" }
   s.source_files  = "ios/**/*.{h,m}"
   s.compiler_flags = '-DMULTIPLATFORM_BLE_ADAPTER'
 

@@ -6,5 +6,5 @@ target 'BleClient' do
   use_frameworks!
 
   # Pods for BleClient
-  pod 'MultiplatformBleAdapter', :git => 'https://github.com/BohdanIvanov/MultiPlatformBleAdapter.git'
+  pod 'MultiplatformBleAdapter', :git => 'https://github.com/BohdanIvanov/MultiPlatformBleAdapter'
 end
