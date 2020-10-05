@@ -1,16 +1,21 @@
 PODS:
-  - MultiplatformBleAdapter (0.1.5)
+  - MultiplatformBleAdapter (0.1.6)
 
 DEPENDENCIES:
-  - MultiplatformBleAdapter (~> 0.1.5)
+  - MultiplatformBleAdapter (from `https://github.com/BohdanIvanov/MultiPlatformBleAdapter.git`)
 
-SPEC REPOS:
-  trunk:
-    - MultiplatformBleAdapter
+EXTERNAL SOURCES:
+  MultiplatformBleAdapter:
+    :git: https://github.com/BohdanIvanov/MultiPlatformBleAdapter.git
+
+CHECKOUT OPTIONS:
+  MultiplatformBleAdapter:
+    :commit: d5a9669107db7ddb6191022185236dc8e7d3c3dc
+    :git: https://github.com/BohdanIvanov/MultiPlatformBleAdapter.git
 
 SPEC CHECKSUMS:
-  MultiplatformBleAdapter: 3c4391d428382738a47662ae1f665a29ce78ff39
+  MultiplatformBleAdapter: 652f47ecd7f5036756517cf66833210709a72eab
 
-PODFILE CHECKSUM: 1020dc7e2662fb2d2a45c16b877cee799a63a44e
+PODFILE CHECKSUM: 480a04828b7826a4ac64fbcd8aefe630ab3ed8eb
 
 COCOAPODS: 1.9.1
