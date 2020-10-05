@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		102073351DF7B74B0DAE27FF /* Pods_BleClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFF533B5337FAA849B7B517 /* Pods_BleClient.framework */; };
+		B27404AFD35412D7FF486B0B /* libPods-BleClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC14D80F0DE095872C975FC /* libPods-BleClient.a */; };
 		D7D202791D4F614D00E10F6A /* BleClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D202771D4F614D00E10F6A /* BleClient.m */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4DFF533B5337FAA849B7B517 /* Pods_BleClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BleClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC14D80F0DE095872C975FC /* libPods-BleClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BleClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98D3BFF0742CAA77EE24920 /* Pods-BleClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleClient.release.xcconfig"; path = "Target Support Files/Pods-BleClient/Pods-BleClient.release.xcconfig"; sourceTree = "<group>"; };
 		D73F06E81D48E17B00AD5963 /* libBleClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBleClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D760681620BBEEA10005ECAF /* BleClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BleClient-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102073351DF7B74B0DAE27FF /* Pods_BleClient.framework in Frameworks */,
+				B27404AFD35412D7FF486B0B /* libPods-BleClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 		E8C769D549D49AEFBAC11D8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4DFF533B5337FAA849B7B517 /* Pods_BleClient.framework */,
+				7CC14D80F0DE095872C975FC /* libPods-BleClient.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
