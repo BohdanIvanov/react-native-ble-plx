@@ -3,7 +3,7 @@ platform :ios, '8.0'
 
 target 'BleClient' do
   # Comment the next line if you don't want to use dynamic frameworks
-  # use_frameworks!
+  use_frameworks!
 
   # Pods for BleClient
   pod 'MultiplatformBleAdapter', :git => 'https://github.com/BohdanIvanov/MultiPlatformBleAdapter.git', :commit => '1ac004aa5179d7075f489706aa4c489262b5fe2d'
